@@ -115,10 +115,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun getSecretKey(): String {
-        val mainKey = MasterKey.Builder(applicationContext)
-            .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
-            .build()
-    }
-
 }
